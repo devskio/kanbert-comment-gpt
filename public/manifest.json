@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Kanbert Comment GPT",
+  "description": "Using ChatGPT to generate comments for task in Kanbert",
+  "version": "1.0.0",
+
+  "action": {
+    "default_icon": "logo.png",
+    "default_popup": "popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "js": ["js/content_script.js"],
+      "matches": [
+        "*://*.kanbert.com/*"
+      ]
+    }
+  ],
+
+  "permissions": ["storage"]
+}
