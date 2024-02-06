@@ -5,7 +5,7 @@ A Chrome extension that creates comments on tasks in Kanbert, powered by OpenAI'
 ## Setup
 
 Following package is not in chrome store yet, so you need to install it manually.
-Download the latest release from the [releases page]() and unzip it. Then follow the instructions below.
+Download the latest release from the [releases page](https://github.com/devskio/kanbert-comment-gpt/releases) and unzip it. Then follow the instructions below.
 
 ### Load extension to chrome
 
